@@ -1,5 +1,11 @@
-import React from "react";
+import { Outlet } from "react-router-dom";
+
+import LayoutProvider from "./components/LayoutProvider";
 
 export default function App() {
-	return <div></div>;
+	return (
+		<LayoutProvider>
+			<Outlet />
+		</LayoutProvider>
+	);
 }

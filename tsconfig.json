@@ -22,11 +22,8 @@
 		"paths": {
 			"@/*": ["*"],
 			"@theme": ["theme"],
-
-			"@atoms": ["components/atoms"],
-			"@organisms": ["components/organisms"],
-			"@templates": ["components/templates"],
-			"@pages/*": ["components/pages"]
+			"@pages/*": ["pages/*"],
+			"@components/*": ["components/*"]
 		}
 	},
 	"include": ["src"],
